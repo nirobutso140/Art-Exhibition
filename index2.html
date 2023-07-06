@@ -1,0 +1,683 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Painting</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/font-awesome@4.7.0/css/font-awesome.min.css">
+    <style>
+
+    </style>
+  </head>
+  <body>
+    <div class="main" id="parent">
+        <div class="container-fluid ">
+
+         <div class="container">
+            <div class="topnav" id="myTopnav">
+               <span id="art_logo"><i class="fa-regular fa-paintbrush-pencil"></i></span>
+               <a href="index.html" class="active">Home</a>
+               <a href="index2.html">Exhibition</a>
+               <a href="index3.html">Contact</a>
+               <a href="#about">About</a>
+               <a href="javascript:void(0);" style="font-size:15px;" class="icon" onclick="myFunction()">&#9776;</a>
+             </div>
+         </div>
+
+            <div class="search_bar">
+               <input  type="text" id="searchFilter" onkeyup="searchFun()" placeholder="Search...">
+            </div>
+            <div class="row">
+                <div class="col-md-12 col-lg-4 column">
+                  <section class="division_1 division">
+                     <a href="./Art/art1.html"><img src="painting/1.jpg" alt="painting"></a>
+                     <div class="desc">
+                         <p class="first_child">The School of Athens</p>
+                         <p class="child">Painted between 1509 and 1511</p>
+                         <p class="child">Artist : Raphael</p>
+                     </div>
+                 </section>
+                   </div>
+                   <div class="col-md-12 col-lg-4">
+                      <div class="outer-container column">
+                        <section class="division_1 division">
+                          <a href="./Art/art2.html"> <img src="painting/2.jpg" alt="painting"></a>
+                           <div class="desc">
+                               <p class="first_child">Wanderer above the Sea of Fog</p>
+                               <p class="child">Painted in 1818</p>
+                               <p class="child">Artist : Caspar David Friedrich</p>
+                           </div>
+                       </section>
+                      </div>
+                   </div>
+                   <div class="col-md-12 col-lg-4 column">
+                     <section class="division_1 division">
+                        <a href="Art/art3.html"><img src="painting/3.jpg" alt="painting"></a>
+                        <div class="desc">
+                            <p class="first_child">The Starry Night</p>
+                            <p class="child">Painted in June 1889</p>
+                            <p class="child">Artist : <span>Vincent van Gogh</span></p>
+                        </div>
+                    </section>
+                   </div>
+            </div>
+
+            <div class="row">
+                <div class="col-md-12 col-lg-4 column">
+                 <section class="division_1 division">
+                  <a href="Art/art4.html"> <img src="painting/4.jpg" alt="painting"></a>
+                     <div class="desc">
+                        <p class="first_child">A Bar at the Folies-Bergère</p>
+                        <p class="child">Painted in 1882</p>
+                        <p class="child">Artist : <span>Édouard Manet</span></p>
+                    </div>
+                 </section>
+                </div>
+                <div class="col-md-12 col-lg-4 column">
+                 <section class="division_1 division">
+                  <a href="Art/art5.html"><img src="painting/5.jpg" alt="painting"></a>
+                     <div class="desc">
+                        <p class="first_child">The Third of May 1808</p>
+                        <p class="child">Painted in 1814</p>
+                        <p class="child">Artist : Francisco Goya</p>
+                    </div>
+                 </section>
+                </div>
+                <div class="col-md-12 col-lg-4 column">
+                 <section class="division_1 division">
+                  <a href="Art/art6.html"><img src="painting/6.jpg" alt="painting"></a>
+                     <div class="desc">
+                        <p class="first_child">Grande Odalisque</p>
+                        <p class="child">Painted in 1814</p>
+                        <p class="child">Artist : Concubine</p>
+                    </div>
+                 </section>
+                </div>
+             </div>
+
+             
+            <div class="row">
+                <div class="col-md-12 col-lg-4 column">
+                 <section class="division_1 division">
+                  <a href="Art/art7.html"><img src="painting/7.jpg" alt="painting"></a>
+                     <div class="desc">
+                        <p class="first_child">Liberty Leading the People</p>
+                        <p class="child">Painted in July 1830</p>
+                        <p class="child">Artist : Eugène Delacroix</p>
+                    </div>
+                 </section>
+                </div>
+                <div class="col-md-12 col-lg-4 column">
+                 <section class="division_1 division">
+                  <a href="Art/art8.html"><img src="painting/8.jpg" alt="painting"></a>
+                     <div class="desc">
+                        <p class="first_child">Impression, Sunrise </p>
+                        <p class="child">Painted in 1872</p>
+                        <p class="child">Artist : Claude Monet</p>
+                    </div>
+                 </section>
+                </div>
+                <div class="col-md-12 col-lg-4 column">
+                 <section class="division_1 division">
+                  <a href="art/art9.html"><img src="painting/9.jpg" alt="painting"></a>
+                     <div class="desc">
+                        <p class="first_child">The Last Supper</p>
+                        <p class="child">Painted in 1495–1498</p>
+                        <p class="child">Artist :  Leonardo da Vinci</p>
+                    </div>
+                 </section>
+                </div>
+             </div>
+
+             <div class="row">
+                <div class="col-md-12 col-lg-4 column">
+                 <section class="division_1 division">
+                  <a href="art/art10.html"><img src="painting/10.jpg" alt="painting"></a>
+                     
+                     <div class="desc">
+                        <p class="first_child">The Starry Night</p>
+                        <p class="child">June 1889</p>
+                        <p class="child">Artist : Vincent van Gogh</p>
+                    </div>
+                 </section>
+                </div>
+                <div class="col-md-12 col-lg-4 column">
+                 <section class="division_1 division">
+                  <a href="Art/art11.html"><img src="painting/11.jpg" alt="painting"></a>
+                     <div class="desc">
+                        <p class="first_child">Café Terrace at Nigh</p>
+                        <p class="child">Painted in 1888</p>
+                        <p class="child">Artist : Vincent van Gogh</p>
+                    </div>
+                 </section>
+                </div>
+                <div class="col-md-12 col-lg-4 column">
+                 <section class="division_1 division">
+                  <a href="Art/art12.html"><img src="painting/12.jpg" alt="painting"></a>
+                     <div class="desc">
+                        <p class="first_child">The Persistence of Memory</p>
+                        <p class="child">Painted in 1931</p>
+                        <p class="child">Artist : Salvador Dalí</p>
+                    </div>
+                 </section>
+                </div>
+             </div>
+
+             <div class="row">
+                <div class="col-md-12 col-lg-4 column">
+                 <section class="division_1 division">
+                  <a href="Art/art13.html"><img src="painting/13.jpg" alt="painting"></a>
+                     <div class="desc">
+                        <p class="first_child">The Swing</p>
+                        <p class="child">Painted in 18th-century</p>
+                        <p class="child">Artist :Jean-Honoré Fragonard</p>
+                    </div>
+                 </section>
+                </div>
+                <div class="col-md-12 col-lg-4 column">
+                 <section class="division_1 division">
+                  <a href="Art/art14.html"><img src="painting/14.jpg" alt="painting"></a>
+                     <div class="desc">
+                        <p class="first_child">The Raft of the Medusa </p>
+                        <p class="child">Painted in 1818–19</p>
+                        <p class="child">Artist : lithographer Théodore Géricault</p>
+                    </div>
+                 </section>
+                </div>
+                <div class="col-md-12 col-lg-4 column">
+                 <section class="division_1 division">
+                  <a href="Art/art15.html"><img src="painting/16.jpg" alt="painting"></a>
+                     <div class="desc">
+                        <p class="first_child">Las Meninas</p>
+                        <p class="child">Painted in 1656</p>
+                        <p class="child">Artist : Diego Velázquez</p>
+                    </div>
+                 </section>
+                </div>
+             </div>
+
+             <div class="row">
+                <div class="col-md-12 col-lg-4 column">
+                 <section class="division_1 division">
+                  <a href="Art/art16.html"><img src="painting/17.jpg" alt="painting"></a>   
+                     <div class="desc">
+                        <p class="first_child">The Mona Lisa</p>
+                        <p class="child">Painted in between 1503–19</p>
+                        <p class="child">Artist : Leonardo da Vinci</p>
+                    </div>
+                 </section>
+                </div>
+                <div class="col-md-12 col-lg-4 column">
+                 <section class="division_1 division">
+                  <a href="Art/art17.html"><img src="painting/18.jpg" alt="painting"></a>
+                     <div class="desc">
+                        <p class="first_child">No. 5, 1948 </p>
+                        <p class="child">Painted in January 1949</p>
+                        <p class="child">Artist : Jackson Pollock</p>
+                    </div>
+                 </section>
+                </div>
+                <div class="col-md-12 col-lg-4 column">
+                 <section class="division_1 division">
+                  <a href="Art/art18.html"><img src="painting/18.jpg" alt="painting"></a>
+                     <div class="desc">
+                        <p class="first_child">Primavera</p>
+                        <p class="child">Made in the late 1470s or early 1480s</p>
+                        <p class="child">Artist : Sandro Botticelli</p>
+                    </div>
+                 </section>
+                </div>
+             </div>
+
+             <div class="row">
+                <div class="col-md-12 col-lg-4 column">
+                 <section class="division_1 division">
+                  <a href="Art/art19.html"><img src="painting/20.jpg" alt="painting"></a>
+                     <div class="desc">
+                        <p class="first_child">The Birth of Venus</p>
+                        <p class="child">Probably executed in the mid 1480s</p>
+                        <p class="child">Artist : Sandro Botticelli</p>
+                    </div>
+                 </section>
+                </div>
+                <div class="col-md-12 col-lg-4 column">
+                 <section class="division_1 division">
+                  <a href="Art/art20.html"><img src="painting/21.jpg" alt="painting"></a>
+                     <div class="desc">
+                        <p class="first_child">The Kiss</p>
+                        <p class="child"> It was painted at some point in 1907 and 1908</p>
+                        <p class="child">Artist : Gustav Klimt</p>
+                    </div>
+                 </section>
+                </div>
+                <div class="col-md-12 col-lg-4 column">
+                 <section class="division_1 division">
+                  <a href="Art/art21.html"><img src="painting/22.jpg" alt="painting"></a>
+                     <div class="desc">
+                        <p class="first_child">Oath of the Horatii</p>
+                        <p class="child">Painted in 1784 and 1785 </p>
+                        <p class="child">Artist : Jacques-Louis David</p>
+                    </div>
+                 </section>
+                </div>
+             </div>
+
+             <div class="row">
+                <div class="col-md-12 col-lg-4 column">
+                 <section class="division_1 division">
+                  <a href="Art/art22.html"><img src="painting/22.jpg" alt="painting"></a>
+                     <div class="desc">
+                        <p class="first_child">Luncheon of the Boating Party </p>
+                        <p class="child">Painted in 1881</p>
+                        <p class="child">Artist : Pierre-Auguste Renoir</p>
+                    </div>
+                 </section>
+                </div>
+                <div class="col-md-12 col-lg-4 column">
+                 <section class="division_1 division">
+                  <a href="Art/art23.html"><img src="painting/24.jpg" alt="painting"></a>
+                     <div class="desc">
+                        <p class="first_child">The Starry Night</p>
+                        <p class="child">June 1889</p>
+                        <p class="child">Artist : Vincent van Gogh</p>
+                    </div>
+                 </section>
+                </div>
+                <div class="col-md-12 col-lg-4 column">
+                 <section class="division_1 division">
+                  <a href="Art/art24.html"><img src="painting/25.jpg" alt="painting"></a>
+                     <div class="desc">
+                        <p class="first_child"> The Storm on the Sea of Galilee</p>
+                        <p class="child">Painted in 1633 </p>
+                        <p class="child">Artist : Rembrandt van Rijn</p>
+                    </div>
+                 </section>
+                </div>
+             </div>
+
+             <div class="row">
+                <div class="col-md-12 col-lg-4 column">
+                 <section class="division_1 division">
+                  <a href="Art/art25.html"><img src="painting/26.jpg" alt="painting"></a>
+                     <div class="desc">
+                        <p class="first_child">The Large Bathers</p>
+                        <p class="child">First exhibited in 1906</p>
+                        <p class="child">Artist : French artist Paul Cézanne</p>
+                    </div>
+                 </section>
+                </div>
+                <div class="col-md-12 col-lg-4 column">
+                 <section class="division_1 division">
+                  <a href="Art/art26.html"><img src="painting/27.jpg" alt="painting"></a>
+                     <div class="desc">
+                        <p class="first_child">The Ambassadors</p>
+                        <p class="child">Painted in 1533</p>
+                        <p class="child">Artist : Hans Holbein</p>
+                    </div>
+                 </section>
+                </div>
+                <div class="col-md-12 col-lg-4 column">
+                 <section class="division_1 division">
+                  <a href="Art/art27.html"><img src="painting/28.jpg" alt="painting"></a>
+                     <div class="desc">
+                        <p class="first_child">The Gross Clinic</p>
+                        <p class="child">Painted in 1875</p>
+                        <p class="child">Artist : American artist Thomas Eakins</p>
+                    </div>
+                 </section>
+                </div>
+             </div>
+
+             <div class="row">
+                <div class="col-md-12 col-lg-4 column">
+                 <section class="division_1 division">
+                  <a href="Art/art28.html"><img src="painting/29.jpg" alt="painting"></a>
+                     <div class="desc">
+                        <p class="first_child">Girl with a Pearl Earring</p>
+                        <p class="child">Painted in 1665</p>
+                        <p class="child">Artist : Dutch Golden Age painter Johannes Vermeer</p>
+                    </div>
+                 </section>
+                </div>
+                <div class="col-md-12 col-lg-4 column">
+                 <section class="division_1 division">
+                  <a href="Art/art29.html"><img src="painting/30.jpg" alt="painting"></a>
+                     <div class="desc">
+                        <p class="first_child">The Arnolfini Portrait</p>
+                        <p class="child">Painted in 1434 </p>
+                        <p class="child">Artist : Netherlandish painter Jan van Eyck</p>
+                    </div>
+                 </section>
+                </div>
+                <div class="col-md-12 col-lg-4 column">
+                 <section class="division_1 division">
+                  <a href="Art/art30.html"><img src="painting/31.jpg" alt="painting"></a>
+                     <div class="desc">
+                        <p class="first_child">Flaming June</p>
+                        <p class="child">Painted in 1895</p>
+                        <p class="child">Artist : Sir Frederic Leighton</p>
+                    </div>
+                 </section>
+                </div>
+             </div>
+
+             <div class="row">
+                <div class="col-md-12 col-lg-4 column">
+                 <section class="division_1 division">
+                  <a href="Art/art31.html"><img src="painting/32.jpg" alt="painting"></a>
+                     <img src="painting/32.jpg" alt="painting">
+                     <div class="desc">
+                        <p class="first_child">Composition VIII</p>
+                        <p class="child">painted in 1923</p>
+                        <p class="child">Artist : Wassily Kandinsky</p>
+                    </div>
+                 </section>
+                </div>
+                <div class="col-md-12 col-lg-4 column">
+                 <section class="division_1 division">
+                  <a href="Art/art32.html"><img src="painting/33.jpg" alt="painting"></a>
+                     <div class="desc">
+                        <p class="first_child">Composition VIII</p>
+                        <p class="child">Painted in 1923</p>
+                        <p class="child">Artist : Wassily Kandinsky</p>
+                    </div>
+                 </section>
+                </div>
+                <div class="col-md-12 col-lg-4 column">
+                 <section class="division_1 division">
+                  <a href="Art/art33.html"><img src="painting/34.jpg" alt="painting"></a>
+                     <div class="desc">
+                        <p class="first_child">Whistler's Mother</p>
+                        <p class="child">Painted in 1871</p>
+                        <p class="child">Artist : American-born painter James Abbott McNeill Whistler</p>
+                    </div>
+                 </section>
+                </div>
+             </div>
+
+             <div class="row">
+                <div class="col-md-12 col-lg-4 column">
+                 <section class="division_1 division">
+                  <a href="Art/art34.html"><img src="painting/35.jpg" alt="painting"></a>
+                     <div class="desc">
+                        <p class="first_child">The Flower Carrier</p>
+                        <p class="child">June 1935</p>
+                        <p class="child">Artist : Diego Rivera</p>
+                    </div>
+                 </section>
+                </div>
+                <div class="col-md-12 col-lg-4 column">
+                 <section class="division_1 division">
+                  <a href="Art/art35.html"><img src="painting/36.jpg" alt="painting"></a>
+                     <div class="desc">
+                        <p class="first_child">Guernica</p>
+                        <p class="child">Painted in 1937</p>
+                        <p class="child">Artist : Spanish artist Pablo Picasso</p>
+                    </div>
+                 </section>
+                </div>
+                <div class="col-md-12 col-lg-4 column">
+                 <section class="division_1 division">
+                  <a href="Art/art36.html"><img src="painting/37.jpg" alt="painting"></a>
+                     <div class="desc">
+                        <p class="first_child">Les Demoiselles d'Avignon</p>
+                        <p class="child">Painted in 1907</p>
+                        <p class="child">Artist : Vincent van Gogh</p>
+                    </div>
+                 </section>
+                </div>
+             </div>
+
+             <div class="row">
+                <div class="col-md-12 col-lg-4 column">
+                 <section class="division_1 division">
+                  <a href="Art/art37.html"><img src="painting/38.jpg" alt="painting"></a>
+                     <div class="desc">
+                        <p class="first_child">Irises</p>
+                        <p class="child">Painted in 1890</p>
+                        <p class="child">Artist : Dutch artist Vincent van Gogh</p>
+                    </div>
+                 </section>
+                </div>
+                <div class="col-md-12 col-lg-4 column">
+                 <section class="division_1 division">
+                  <a href="Art/art38.html"><img src="painting/39.jpg" alt="painting"></a>
+                     <div class="desc">
+                        <p class="first_child">The Garden of Earthly Delights</p>
+                        <p class="child">Painted in between 1490 and 1510</p>
+                        <p class="child">Artist : Vincent van Gogh</p>
+                    </div>
+                 </section>
+                </div>
+                <div class="col-md-12 col-lg-4 column">
+                 <section class="division_1 division">
+                  <a href="Art/art39.html"><img src="painting/40.jpg" alt="painting"></a>
+                     <div class="desc">
+                        <p class="first_child">The Starry Night</p>
+                        <p class="child">June 1889</p>
+                        <p class="child">Artist : Vincent van Gogh</p>
+                    </div>
+                 </section>
+                </div>
+             </div>
+
+             <div class="row">
+                <div class="col-md-12 col-lg-4 column">
+                 <section class="division_1 division">
+                  <a href="Art/art40.html"><img src="painting/41.jpg" alt="painting"></a>
+                     <div class="desc">
+                        <p class="first_child">The Starry Night</p>
+                        <p class="child">June 1889</p>
+                        <p class="child">Artist : Vincent van Gogh</p>
+                    </div>
+                 </section>
+                </div>
+                <div class="col-md-12 col-lg-4 column">
+                 <section class="division_1 division">
+                  <a href="Art/art41.html"><img src="painting/42.jpg" alt="painting"></a>
+                     <div class="desc">
+                        <p class="first_child">La maja desnuda</p>
+                        <p class="child">Painted in around 1797–1800</p>
+                        <p class="child">Artist : The Spanish artist Francisco de Goya</p>
+                    </div>
+                 </section>
+                </div>
+                <div class="col-md-12 col-lg-4 column">
+                 <section class="division_1 division">
+                  <a href="Art/art42.html"><img src="painting/43.jpg" alt="painting"></a>
+                     <div class="desc">
+                        <p class="first_child">Dante and Virgil</p>
+                        <p class="child">Painted in 1850</p>
+                        <p class="child">Artist : French academic painter William-Adolphe Bouguereau</p>
+                    </div>
+                 </section>
+                </div>
+             </div>
+
+             
+             <div class="row">
+                <div class="col-md-12 col-lg-4 column">
+                 <section class="division_1 division">
+                  <a href="Art/art43.html"><img src="painting/44.jpg" alt="painting"></a>
+                     <div class="desc">
+                        <p class="first_child">Portrait of Madame X</p>
+                        <p class="child">Painted in 1884</p>
+                        <p class="child">Artist : John Singer</p>
+                    </div>
+                 </section>
+                </div>
+                <div class="col-md-12 col-lg-4 column">
+                 <section class="division_1 division">
+                  <a href="Art/art44.html"><img src="painting/45.jpg" alt="painting"></a>
+                     <div class="desc">
+                        <p class="first_child">American Gothic</p>
+                        <p class="child">Painted in 1930 </p>
+                        <p class="child">Artist : Grant Wood</p>
+                    </div>
+                 </section>
+                </div>
+                <div class="col-md-12 col-lg-4 column">
+                 <section class="division_1 division">
+                  <a href="Art/art45.html"><img src="painting/46.jpg" alt="painting"></a>
+                     <div class="desc">
+                        <p class="first_child">The Lady of Shalott</p>
+                        <p class="child">Painted in 1888</p>
+                        <p class="child">Artist : The English painter John William Waterhouse</p>
+                    </div>
+                 </section>
+                </div>
+             </div>
+
+             <div class="row">
+                <div class="col-md-12 col-lg-4 column">
+                 <section class="division_1 division">
+                  <a href="Art/art46.html"><img src="painting/47.jpg" alt="painting"></a>
+                     <div class="desc">
+                        <p class="first_child">The Hireling Shepherd</p>
+                        <p class="child">Painted in 1851</p>
+                        <p class="child">Artist : The Pre-Raphaelite artist William Holman Hunt</p>
+                    </div>
+                 </section>
+                </div>
+                <div class="col-md-12 col-lg-4 column">
+                 <section class="division_1 division">
+                  <a href="Art/art47.html"><img src="painting/48.jpg" alt="painting"></a>
+                     <div class="desc">
+                        <p class="first_child">The Ninth Wave</p>
+                        <p class="child">Painted in 1850</p>
+                        <p class="child">Artist : Russian-Armenian marine painter Ivan Aivazovsky</p>
+                    </div>
+                 </section>
+                </div>
+                <div class="col-md-12 col-lg-4 column">
+                 <section class="division_1 division">
+                  <a href="Art/art48.html"><img src="painting/49.jpg" alt="painting"></a>
+                     <div class="desc">
+                        <p class="first_child">The Starry Night</p>
+                        <p class="child">June 1889</p>
+                        <p class="child">Artist : Vincent van Gogh</p>
+                    </div>
+                 </section>
+                </div>
+             </div>
+
+             <div class="row">
+                <div class="col-md-12 col-lg-4 column">
+                 <section class="division_1 division">
+                  <a href="Art/art49.html"><img src="painting/50.jpg" alt="painting"></a>
+                     <div class="desc">
+                        <p class="first_child">The Astronomer</p>
+                        <p class="child">Painted in 1668</p>
+                        <p class="child">Artist : The Dutch Golden Age painter Johannes Vermeer</p>
+                    </div>
+                 </section>
+                </div>
+                <div class="col-md-12 col-lg-4 column">
+                 <section class="division_1 division">
+                  <a href="Art/art50.html"><img src="painting/51.jpg" alt="painting"></a>
+                     <div class="desc">
+                        <p class="first_child">The Starry Night</p>
+                        <p class="child">June 1889</p>
+                        <p class="child">Artist : Vincent van Gogh</p>
+                    </div>
+                 </section>
+                </div>
+                <div class="col-md-12 col-lg-4 column">
+                 <section class="division_1 division">
+                  <a href="Art/art51.html"><img src="painting/52.jpg" alt="painting"></a>
+                     <div class="desc">
+                        <p class="first_child">The Starry Night</p>
+                        <p class="child">June 1889</p>
+                        <p class="child">Artist : Vincent van Gogh</p>
+                    </div>
+                 </section>
+                </div>
+             </div>
+
+             <div class="row">
+                <div class="col-md-12 col-lg-4 column">
+                 <section class="division_1 division">
+                  <a href="Art/art52.html"><img src="painting/53.jpg" alt="painting"></a>
+                     <div class="desc">
+                        <p class="first_child">The Starry Night</p>
+                        <p class="child">June 1889</p>
+                        <p class="child">Artist : Vincent van Gogh</p>
+                    </div>
+                 </section>
+                </div>
+                <div class="col-md-12 col-lg-4 column">
+                 <section class="division_1 division">
+                  <a href="Art/art53.html"><img src="painting/54.jpg" alt="painting"></a>
+                     <div class="desc">
+                        <p class="first_child">The Starry Night</p>
+                        <p class="child">June 1889</p>
+                        <p class="child">Artist : Vincent van Gogh</p>
+                    </div>
+                 </section>
+                </div>
+                <div class="col-md-12 col-lg-4 column">
+                 <section class="division_1 division">
+                  <a href="Art/art54.html"><img src="painting/55.jpg" alt="painting"></a>
+                     <div class="desc">
+                        <p class="first_child">The Starry Night</p>
+                        <p class="child">June 1889</p>
+                        <p class="child">Artist : Vincent van Gogh</p>
+                    </div>
+                 </section>
+                </div>
+             </div>
+
+             <div class="row">
+               
+                  <div class="col-md-12 col-lg-4 column">
+                     <section class="division_1 division">
+                        <a href="Art/art55.html"><img src="painting/56.jpg" alt="painting"></a>
+                        <div class="desc">
+                           <p class="first_child">The Starry Night</p>
+                           <p class="child">June 1889</p>
+                           <p class="child">Artist : Vincent van Gogh</p>
+                       </div>
+                    </section>
+                  </div>
+                
+                  <div class="col-md-12 col-lg-4 column">
+                     <section class="division_1 division">
+                        <a href="Art/art56.html"><img src="painting/57.jpg" alt="painting"></a>
+                         <div class="desc">
+                            <p class="first_child">The Beheading of St John the Baptist</p>
+                            <p class="child">Painted in 1608</p>
+                            <p class="child">Artist : The Italian artist Caravaggio</p>
+                        </div>
+                     </section>
+                    </div>
+                
+               <div class="col-md-12 col-lg-4 column">
+                  <section class="division_1 division">
+                     <a href="Art/art57.html"><img src="painting/58.jpg" alt="painting"></a>
+                     <div class="desc">
+                        <p class="first_child">The Gleaners</p>
+                        <p class="child">Painted in 1857</p>
+                        <p class="child">Artist : Jean-François Mille</p>
+                     </div>
+                  </section>
+               </div>
+            
+            </div>
+        </div>
+    </div>
+    <script>
+      function myFunction() {
+        var x = document.getElementById("myTopnav");
+        if (x.className === "topnav") {
+          x.className += " responsive";
+        } else {
+          x.className = "topnav";
+        }
+      }
+      </script>
+    <script src="main.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
+  </body>
+</html>
